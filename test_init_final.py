@@ -975,8 +975,9 @@ while True:
 							result = wks.acell(basicSetting[16]).value
 
 							embed = discord.Embed(
-									description= '```' + SearchID + ' 님이 받을 다이야는 ' + result + ' 다이야 입니다.```',
-									color=0xff00ff
+									title = ' :globe_with_meridians:  ' + SearchID + ' 안내 ',
+									description= '```' + SearchID + ' 이번달 정책 입니다. ' + result + ' ```',
+									color=0x00ffff
 									)
 							await msg.channel.send(embed=embed, tts=False)
 		else :
@@ -1905,8 +1906,9 @@ while True:
 					result = wks.acell(basicSetting[16]).value
 
 					embed = discord.Embed(
-							description= '```' + SearchID + ' 님이 받을 다이야는 ' + result + ' 다이야 입니다.```',
-							color=0xff00ff
+							title = ' :globe_with_meridians:  ' + SearchID + ' 안내 ',
+							description= '```' + SearchID + ' 이번달 정책입니다. ' + result + ' ```',
+							color=0x00ffff
 							)
 					await msg.channel.send(embed=embed, tts=False)
 
